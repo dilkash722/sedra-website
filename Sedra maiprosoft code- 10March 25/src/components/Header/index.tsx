@@ -576,7 +576,7 @@ const Header = () => {
       menuName: "About Us",
       items: [
         {
-          title: "About Maiprosoft",
+          title: "About Sedra",
           icon: "/images/Maiprosoft-menu/About us/About us.svg",
           subtitle: [
             {
@@ -585,7 +585,7 @@ const Header = () => {
               contentKey: "erpSolutions",
             },
             {
-              text: "Why Maiprosoft",
+              text: "Why Sedra",
               url: "https://example.com/operations-management",
               contentKey: "operationsManagement",
             },

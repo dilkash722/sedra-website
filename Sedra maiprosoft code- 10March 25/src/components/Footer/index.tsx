@@ -10,20 +10,20 @@ export default function Footer() {
       <div className="container mx-auto px-6 grid grid-cols-2 md:grid-cols-5 gap-8">
         {/* Logo Section */}
         <div className="col-span-2 md:col-span-1">
-          <Link href="/" title="Maiprosoft">
-            <img  src="/images/New-MaiprosofLogo/whitelogo.svg"
- alt="Maiprosoft Logo" className="h-6 mb-4 mx-auto md:mx-0" /> {/* Adjust height as needed */}
+          <Link href="/" title="Sedra">
+            <img  src="/images/New-MaiprosofLogo/sedraf.png"
+ alt="Maiprosoft Logo" className="h-12 width-[210px] mb-4 mx-auto md:mx-0 white-logo" /> {/* Adjust height as needed */}
           </Link>
         </div>
 
         {/* About Maiprosoft Section */}
         <div>
-  <h6 className="font-semibold mb-4">About Maiprosoft</h6>
+  <h6 className="font-semibold mb-4">About Sedra</h6>
   <ul className="space-y-2">
     <li><Link href="#" className="font-light ">Careers</Link></li>
     <li><Link href="#" className="font-light">Latest News</Link></li>
     <li><Link href="#" className="font-light">Corporate Vision</Link></li>
-    <li><Link href="#" className="font-light">About Maiprosoft</Link></li>
+    <li><Link href="#" className="font-light">About Sedra</Link></li>
   </ul>
 </div>
 
@@ -45,7 +45,7 @@ export default function Footer() {
 <div>
   <h6 className="font-semibold mb-4">Important Links</h6>
   <ul className="space-y-2">
-    <li><Link href="#" className="font-light">Maiprosoft Club Blue</Link></li>
+    <li><Link href="#" className="font-light">Sedra Club Blue</Link></li>
     <li><Link href="#" className="font-light">Press Kit</Link></li>
     <li><Link href="#" className="font-light">Support</Link></li>
     <li><Link href="#" className="font-light">Secure Usage Policy</Link></li>
@@ -124,7 +124,7 @@ export default function Footer() {
 
       {/* Bottom Section */}
       <div className="container mx-auto px-6 mt-8 border-t border-gray-600 pt-4 grid grid-cols-1 md:grid-cols-3">
-        <p className="text-center md:text-left text-gray-400">© Maiprosoft 2024</p>
+        <p className="text-center md:text-left text-gray-400">© Sedra 2024</p>
         <div className="text-center hidden md:block"></div>
         <div className="flex justify-center md:justify-end">
           <Link href="/employee-services"><i className="icon-sign_in_menu_icon text-xl"></i></Link>

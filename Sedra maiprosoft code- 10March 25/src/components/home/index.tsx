@@ -199,7 +199,7 @@ Let&apos;s Begin Your Digital Transformation Journey
          
          
           <p className="text-white"  style={{ textShadow: '2px 2px 4px #323333' }}>
-          With Maiprosoft, imagination knows no bounds. We invite you to experience the transformative potential of our exceptional solutions, designed to elevate your business to new heights. 
+          With Sedra, imagination knows no bounds. We invite you to experience the transformative potential of our exceptional solutions, designed to elevate your business to new heights. 
           </p>
           <div>
            

@@ -133,19 +133,19 @@ const Testimonials = () => {
   const testimonials = [
     
       {
-        "quote": "Maiprosoft helped us streamline our operations with efficiency and precision. Their team brought incredible value, allowing us to accelerate our timelines while staying within budget. Their expertise made all the difference for us!",
+        "quote": "Sedra helped us streamline our operations with efficiency and precision. Their team brought incredible value, allowing us to accelerate our timelines while staying within budget. Their expertise made all the difference for us!",
         "name": "Mahmoud Abbas",
         "position": "General Manager, Alomair",
         "image": "/images/testimonials/men.jpg"
       },
       {
-        "quote": "With Maiprosoft's support, we achieved seamless integration and improved productivity across departments. They have been an invaluable partner, and their solutions consistently exceed our expectations.",
+        "quote": "With Sedra's support, we achieved seamless integration and improved productivity across departments. They have been an invaluable partner, and their solutions consistently exceed our expectations.",
         "name": "Mohammed Shabaan",
         "position": "Chief Financial Officer, Electro Power Systems",
         "image": "/images/testimonials/men.jpg"
       },
       {
-        "quote": "The expertise and dedication from Maiprosoft's team have allowed us to integrate our new processes faster and more efficiently. They have been an exceptional partner, going above and beyond to meet our needs.",
+        "quote": "The expertise and dedication from Sedra's team have allowed us to integrate our new processes faster and more efficiently. They have been an exceptional partner, going above and beyond to meet our needs.",
         "name": "Mr. Indika",
         "position": "Chief Financial Officer, Saudi Projects & Suppliers",
         "image": "/images/testimonials/men.jpg"
