@@ -1,0 +1,222 @@
+
+//2
+// components/Testimonials.js
+"use client"
+// import React, { useRef } from "react";
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+
+// const Testimonials = () => {
+//   const sliderRef = useRef(null); // Reference to the slider
+
+//   const settings = {
+//     dots: true,
+//     infinite: true,
+//     speed: 500,
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//     autoplay: true,
+//     autoplaySpeed: 5000,
+//     pauseOnHover: true,
+//   };
+
+//   const testimonials = [
+//     {
+//       quote: "HCLTech helped us do the integration of our acquired businesses, not only faster but also better and cheaper. They have been a trusted and transparent partner who has always been willing to travel fast!",
+//       name: "Andy Nallappan",
+//       position: "Former CTO and Head of Software Business Operations, Broadcom Software",
+//       image: "https://hcltech.imgix.net/sites/default/files/images/special-pages/home/01/Andy-Nallappan.webp",
+//     },
+//     {
+//       quote: "Having a partner in a fast-changing environment who keeps their promises even though there’s major disruption is super valuable, and HCLTech always stood up to their promises and played a major role for us.",
+//       name: "Dr. Victoria Ossadnik",
+//       position: "COO, Digital and Member of the Board of Management of E.ON",
+//       image: "https://hcltech.imgix.net/sites/default/files/images/special-pages/home/01/Dr.-Victoria-Ossadnik.webp",
+//     },
+//     {
+//       quote: "HCLTech has been a great partner in our digital work. Our teams have worked collaboratively and innovatively to accelerate the delivery of our amazing digital mortgage buying experience.",
+//       name: "Wendy Redshaw",
+//       position: "Chief Digital Information Officer, Retail Banking, NatWest Group",
+//       image: "https://hcltech.imgix.net/sites/default/files/images/special-pages/home/01/Wendy-Redshaw.webp",
+//     },
+//     {
+//       quote: "HCLTech has been paramount in building digital at scale through technology and innovation. Our evolving partnership has not only been a convergence of experience and technology but has also supercharged our ecosystem to create memorable customer experiences.",
+//       name: "Koos van der Veen",
+//       position: "IT Director, Aegon Netherlands",
+//       image: "https://hcltech.imgix.net/sites/default/files/images/special-pages/home/01/Partner-Avatar-Koos-van-der-Veen.webp",
+//     },
+//   ];
+
+//   return (
+//     <div className="bg-gray-100 relative py-12">
+//       <div className="absolute inset-0">
+//         <img
+//           src="https://hcltech.imgix.net/sites/default/files/images/special-pages/home/01/light-gradient.webp"
+//           alt="Testimonials Background"
+//           className="w-full h-full object-cover"
+//         />
+//       </div>
+//       <div className="relative container mx-auto px-4">
+//         <h2 className="text-center text-4xl font-light mb-8">Testimonials</h2>
+//         <div className="max-w-4xl mx-auto">
+//           <Slider ref={sliderRef} {...settings}>
+//             {testimonials.map((testimonial, index) => (
+//               <div key={index} className="px-4">
+//                 {/* <div className="bg-white rounded-lg shadow-md p-16"> */}
+//                 <div className="bg-white rounded-lg shadow-md p-16 relative"> {/* Changed padding */}
+
+//                   <p className="text-lg italic mb-4">“{testimonial.quote}”</p>
+//                   <div className="flex items-center mt-4">
+//                     <img
+//                       src={testimonial.image}
+//                       alt={testimonial.name}
+//                       className="w-16 h-16 rounded-full object-cover"
+//                     />
+//                     <div className="ml-4">
+//                       <h3 className="font-semibold">{testimonial.name}</h3>
+//                       <p className="text-sm text-gray-600">{testimonial.position}</p>
+//                     </div>
+//                   </div>
+//                 </div>
+//                 <div className="absolute bottom-4 left-4 flex space-x-4">
+//           <button
+//             className="slick-prev slick-arrow bg-blue-500 text-white rounded px-4 py-2"
+//             aria-label="Previous"
+//             onClick={() => sliderRef.current.slickPrev()}
+//           >
+//             Previous
+//           </button>
+//           <button
+//             className="slick-next slick-arrow bg-blue-500 text-white rounded px-4 py-2"
+//             aria-label="Next"
+//             onClick={() => sliderRef.current.slickNext()}
+//           >
+//             Next
+//           </button>
+//         </div>
+//               </div>
+//             ))}
+//           </Slider>
+//         </div>
+
+//         {/* Navigation Buttons */}
+       
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Testimonials;
+
+// components/Testimonials.js
+import React, { useRef } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+const Testimonials = () => {
+  const sliderRef = useRef(null); // Reference to the slider
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
+    
+  };
+
+  const testimonials = [
+    
+      {
+        "quote": "Maiprosoft helped us streamline our operations with efficiency and precision. Their team brought incredible value, allowing us to accelerate our timelines while staying within budget. Their expertise made all the difference for us!",
+        "name": "Mahmoud Abbas",
+        "position": "General Manager, Alomair",
+        "image": "/images/testimonials/men.jpg"
+      },
+      {
+        "quote": "With Maiprosoft's support, we achieved seamless integration and improved productivity across departments. They have been an invaluable partner, and their solutions consistently exceed our expectations.",
+        "name": "Mohammed Shabaan",
+        "position": "Chief Financial Officer, Electro Power Systems",
+        "image": "/images/testimonials/men.jpg"
+      },
+      {
+        "quote": "The expertise and dedication from Maiprosoft's team have allowed us to integrate our new processes faster and more efficiently. They have been an exceptional partner, going above and beyond to meet our needs.",
+        "name": "Mr. Indika",
+        "position": "Chief Financial Officer, Saudi Projects & Suppliers",
+        "image": "/images/testimonials/men.jpg"
+      },
+      
+    
+    
+  ];
+
+  return (
+    <div className="bg-[#ffcc00b0] relative py-12 bg-gradient-to-r from- to-yellow-300">
+      <div className="absolute inset-0">
+        {/* <img
+          src="https://hcltech.imgix.net/sites/default/files/images/special-pages/home/01/light-gradient.webp"
+          alt="Testimonials Background"
+          className="w-full h-full object-cover"
+        /> */}
+      </div>
+      <div className="relative container mx-auto px-4">
+        <h2 className="text-center text-3xl  mb-8 text-black "> Voices That Inspire</h2>
+        <div className="max-w-4xl mx-auto">
+          <Slider ref={sliderRef} {...settings}>
+            {testimonials.map((testimonial, index) => (
+              <div key={index} className="px-4">
+                {/* <div className="bg-white shadow-lg shadow-maib rounded-lg p-16 relative"> */}
+                <div className="bg-white shadow-lg shadow-black shadow-[0px_4px_6px_-1px_rgba(0,0,0,0.1),0px_2px_4px_-1px_rgba(0,0,0,0.06)] rounded-lg p-16 relative">
+
+
+
+
+
+
+                {/* <div className="bg-white shadow-white-lg rounded-lg p-16 relative"> Changed padding */}
+                  <p className="text-lg italic mb-4 text-black">“{testimonial.quote}”</p>
+                  <div className="flex items-center mt-4">
+                    <img
+                      src={testimonial.image}
+                      alt={testimonial.name}
+                      className="w-16 h-16 rounded-full object-cover"
+                    />
+                    <div className="ml-4">
+                      <h3 className="font-semibold text-mai">{testimonial.name}</h3>
+                      <p className="text-sm text-black">{testimonial.position}</p>
+                    </div>
+                  </div>
+
+                  {/* Navigation Buttons */}
+                  {/* <div className="absolute bottom-4 left-4 flex space-x-2">
+                    <button
+                      className="slick-prev slick-arrow bg-blue-500 text-white rounded px-4 py-2"
+                      aria-label="Previous"
+                      onClick={() => sliderRef.current.slickPrev()}
+                    >
+                      Previous
+                    </button>
+                    <button
+                      className="slick-next slick-arrow bg-blue-500 text-white rounded px-4 py-2"
+                      aria-label="Next"
+                      onClick={() => sliderRef.current.slickNext()}
+                    >
+                      Next
+                    </button>
+                  </div> */}
+                </div>
+              </div>
+            ))}
+          </Slider>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Testimonials;
