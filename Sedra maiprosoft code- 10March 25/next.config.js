@@ -14,19 +14,35 @@
 
 // module.exports = nextConfig;
 //13oct
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   experimental: {
+//     missingSuspenseWithCSRBailout: false, // Disable the missing suspense warning
+//   },
+//   images: {
+//     domains: [
+//       "localhost",
+//       "www.zohowebstatic.com", // Added the domain to the list
+//       "hcltech.imgix.net",
+//       "www.epicor.com",
+//       "assets.epicor.com",
+//       "https://assets.epicor.com",
+//       "storage.googleapis.com",
+//       "placehold.co",
+//       "upload.wikimedia.org"
+//     ],
+//   },
+// };
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    missingSuspenseWithCSRBailout: false, // Disable the missing suspense warning
-  },
   images: {
     domains: [
       "localhost",
-      "www.zohowebstatic.com", // Added the domain to the list
+      "www.zohowebstatic.com",
       "hcltech.imgix.net",
       "www.epicor.com",
       "assets.epicor.com",
-      "https://assets.epicor.com",
       "storage.googleapis.com",
       "placehold.co",
       "upload.wikimedia.org"
