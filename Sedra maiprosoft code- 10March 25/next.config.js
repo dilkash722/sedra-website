@@ -36,6 +36,9 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    missingSuspenseWithCSRBailout: false, // Disable missing suspense warning
+  },
   images: {
     domains: [
       "localhost",
@@ -48,6 +51,7 @@ const nextConfig = {
       "upload.wikimedia.org"
     ],
   },
+  output: "standalone", // For better Vercel deployment
 };
 
 module.exports = nextConfig;
